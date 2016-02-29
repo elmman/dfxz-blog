@@ -6,4 +6,4 @@
 #数据库 : MySQL
 
 #creators
-elmman、dreamMonkeyZ、maxFang
+elmman、dreamMonkeyZ、maxFang(guy write self)
