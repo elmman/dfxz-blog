@@ -1,0 +1,7 @@
+{
+	"require":{
+	},
+	"autoload":{
+		"classmap":["app/Http/Controllers"]
+	}
+}
