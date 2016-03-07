@@ -11,7 +11,7 @@
 |
 */
 
-define('ROUTE_BASE','dfxz-blog/lumen/public');
+define('ROUTE_BASE','dfxz-blog/public');
 
 // $app->get('/', function () use ($app) {
 //     return 'hello! come on~~';
