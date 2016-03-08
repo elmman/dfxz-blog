@@ -34,3 +34,9 @@ $app->get(ROUTE_BASE . '/hello',['uses'=>'test\ShowHelloWorld@sayHello','as'=>'s
 // echo '2' . '<br>';
 
 $app->get(ROUTE_BASE . '/showMiddleware/{key}',['uses'=>'test\showHelloWorld@showMiddleware','as'=>'showMiddleware']);
+
+
+
+$app->group(['prefix' => 'test', 'namespace' => 'App\Http\Controllers'], function() use ($app) {
+    $app->get('errorTest', 'TestController@errorTest');
+});

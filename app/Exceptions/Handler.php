@@ -45,6 +45,16 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $e)
     {
+        //可配置跨越问题
+        $headers = renderHeaders($request);
+
+        if ($e instanceof AbortException) {
+            $result = $e->getResult();
+            $httpCode = $e->getHttpCode();
+            $exheaders = $e->getHeaders();
+            $headers = array_merge($headers, $exheaders);
+            return response($result, $httpCode, $headers);
+        }
         return parent::render($request, $e);
     }
 }
