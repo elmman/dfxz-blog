@@ -1,0 +1,28 @@
+header{
+	height: 70px;
+	background-color: #00acac;
+	width: 100%;
+}
+
+#logo{
+	float:left;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: center;
+}
+#nav{
+	float:right;
+	list-style: none;
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+#nav li{
+	float:right;
+	padding-right: 15px;
+}
+
+#nav li a{
+	color:#FFFFFF;
+}

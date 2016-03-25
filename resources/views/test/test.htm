@@ -1,0 +1,45 @@
+<!doctype htm>
+<html>
+<head>
+<meta lang="en">
+<meta charset='utf-8'>
+<title>Here is Dream Blog.</title>
+<link type="text/css" href="../../css/normalize.css">
+<script src="../../script/angular-1.5.2/angular.min.js"></script>
+<style type="text/css">
+	#testDiv{
+		font-weight: bold;
+		letter-spacing: 3px;
+		text-align: center;
+		width:1200px;
+		height: 100%;
+		margin:0 auto;
+		background-color: #ccc;
+		color: #000;
+	}
+	h2{
+		text-shadow:2px 1px 3px #000;
+	}
+	.common_div{
+		border-bottom: 3px solid #ddd;
+		margin-bottom: 20px;
+	}
+	#part2{
+		line-height: inherit;
+	}
+</style>
+</head>
+<body>
+	<div id='testDiv' ng-app>
+		<div id="part1" class="common_div">
+			<h2>Hi 安玖拉</h2>
+			<h3>{{'hello'}}</h3>
+			<p>这个大兄弟所有的开始是一个模块,通过定义控制器和service实现整个module功能搭建,你也别来了 !!!!!</p>
+		</div>
+		<div id="part2" class="common_div" >
+			<input type='text' ng-model="name" >
+			<span>{{name || 'world'}}</span>
+		</div>
+	</div>
+</body>
+</html>
