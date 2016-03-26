@@ -63,6 +63,7 @@ footer{
 	height: 100%;
 	width: 70%;
 	padding:30px;
+	color:#CC0033;
 }
 
 
@@ -80,4 +81,20 @@ footer{
 
 #main_first section h3,#main_second section h3{
 	text-shadow:6px 6px 2px #ccc;
+}
+
+#contact{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 15px;
+}
+
+#contact li{
+	margin-bottom: 12px;
+	letter-spacing: 1px;
+}
+
+#team-h h3{
+	border-bottom: 2px solid black;
+	width:130px;
 }
