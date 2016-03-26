@@ -1,15 +1,17 @@
 header{
-	height: 70px;
-	background-color: #00acac;
+	height: 8%;
+	background-color: #cccccc;
 	width: 100%;
 }
 
 #logo{
 	float:left;
-	color:#FFFFFF;
+	color:black;
 	font-weight: bold;
 	font-size: 20px;
-	vertical-align: center;
+	text-shadow:2px 2px 2px #ccc;
+	line-height: 70px;
+	margin-left:50px;
 }
 #nav{
 	float:right;
@@ -21,8 +23,61 @@ header{
 #nav li{
 	float:right;
 	padding-right: 15px;
+	height: 100%;
+	line-height: 70px;
+	color:black;
 }
 
 #nav li a{
-	color:#FFFFFF;
+	color:black;
+}
+
+#content{
+	height:86%; 
+	background-color: #cccc99;
+}
+
+footer{
+	height: 6%;
+	width: 100%;
+	text-align: center;
+	clear:both;
+}
+
+#description{
+	margin:0 auto;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+
+#team-h{
+	float: left;
+	height: 100%;
+	width: 20%;
+	padding:30px;
+}
+#main{
+	float: left;
+	height: 100%;
+	width: 70%;
+	padding:30px;
+}
+
+
+#main_first section,#main_second section{
+	height : 30%;
+	width : 25%;
+	float : left;
+	margin: 40px 60px 0px 0px ;	
+}
+
+#main_first section p,#main_second section p{
+	font-size:15px;
+	letter-spacing: 1px;
+}
+
+#main_first section h3,#main_second section h3{
+	text-shadow:6px 6px 2px #ccc;
 }
